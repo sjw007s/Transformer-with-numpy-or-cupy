@@ -8,7 +8,7 @@ Perhaps this is the first publicly available code to implement the transformer w
 TensorFlow and Pytorch can implement the transformer, but it makes all the arrays to see how the transformer works in detail.
 It reproduces weight generation, forward propagation, and back propagation except for a batch normalization layer.
 It was confirmed that bleu 1.0 was obtained with 9 sentences (data included, Korean->English data).
-It was confirmed that bleu 1.0 was obtained with 100 sentences (data not included, a project is in progress, Korean->Korean sign language data).
+It was confirmed that bleu 0.97 was obtained with 1309 sentences (data not included, a project is in progress, Korean->Korean sign language data).
 I think it will be useful for those who want to acquire the ability to implement artificial neural networks without the frameworks.
 The code has been transformed using https://github.com/KONANtechnology/Academy.ALZZA.
 
@@ -32,7 +32,7 @@ Vaswani, Ashish, et al. "Attention is all you need." arXiv preprint arXiv:1706.0
 가중치 생성, 순전파, 역전파를 전부 구현한 것이 특징입니다.
 batch normalization layer는 제외되고 구현되었습니다.
 한국어-영어 1대1 대응 9문장(데이터 포함)으로 bleu 1.0을 얻어내는 것을 확인하였으며
-한국어-한국수어문장 1대1 대응 100문장(데이터 미포함, 과제 수행중)으로 bleu 1.0을 얻어내는 것을 확인하였습니다.
+한국어-한국수어문장 1대1 대응 1309문장(데이터 미포함, 과제 수행중)으로 bleu 0.97을 얻어내는 것을 확인하였습니다.
 인공신경망을 자유자재로 구현하는 능력을 얻고싶은 분들에게 유용할 것이라 생각합니다.
 해당 코드는 https://github.com/KONANtechnology/Academy.ALZZA 을 이용하여 만들었습니다.
 
